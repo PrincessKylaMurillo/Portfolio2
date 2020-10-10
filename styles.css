@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  min-width: 100vw;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+  min-height: 10vh;
+  background: #0d0d0d;
+  opacity: 0.5;
+  margin-top:0px;
+  
+}
+.nav h1 {
+  opacity: 2.0;
+}
+.nav-bar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  
+}
+
+.nav-items a {
+  font-size: 2rem;
+  color: pink;
+  text-decoration: none;
+    padding: 0rem 5rem;
+}
+
+.homepage{
+	 min-height: 100vh;
+  line-height: 450%;
+  background-image: url("home1.png");
+  position:relative;
+  background-repeat: no-repeat;
+  background-size:100%;
+  text-align: top;
+  font-family: Lucida Calligraphy;
+	display:block;
+}
+.hm p {
+	font-size: 25px;
+	padding-top:80px;
+	margin-left:10%;
+	margin-bottom:18%;
+}
+
+.hm h4 {
+	margin-left:10px;
+	font-family: Times New Roman;
+	font-size:15px;
+}
+
+.hm img{
+	margin-left:1%;
+	display: block;
+}
+
+.profiles {
+	padding-top: 70px;
+  min-height: 100vh;
+  background-image: url("im5.jpg");
+   background-repeat: no-repeat;
+  background-size:100%;
+
+}
+.profiles h1 {
+	font-size: 25px;
+	line-height: 150%;
+	padding-left: 500px;
+}
+
+.profiles img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.profiles h2 {
+	font-size: 19px;
+	line-height: 120%;
+	padding-left: 457px;
+}
+
+.profiles p {
+	font-size: 15px;
+	padding-left: 400px;
+}
+
+.skills {
+	margin-right: 20%;
+	float:right;
+	width:300px;
+	margin-top: 10%;
+	}
+
+.skills h4 {
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+.skills ul {
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+.skills li {
+	list-style:none;
+	
+}
+
+.hobbies {
+	padding-top:75px;
+	padding-left: 40px;
+  min-height: 100vh;
+  line-height: 450%;
+   background-image: url("pastel2.jpg");
+   background-repeat: no-repeat;
+  background-size:100%;
+}
+
+.hob {
+	margin-left:20%;
+	float:left;
+	margin-top:10%;
+	width:300px;
+}
+
+.hobbies h4{
+	font-size: 40px;
+	text-align: center;
+}
+.hobbies ul{
+	list-style:none;
+	font-size: 20px;
+	text-align: center;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+}
+
+table{
+	border:1px solid black;
+	margin-left:75px;
+}
